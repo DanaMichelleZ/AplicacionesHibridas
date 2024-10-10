@@ -8,4 +8,4 @@ function esPrimo(numero) {
     return true;
 }
 
-module.exports = esPrimo; 
+export default esPrimo;
