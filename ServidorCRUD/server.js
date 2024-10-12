@@ -59,7 +59,7 @@ app.get('/productos/:id', async (req, res) => {
     }
 });
 
-// Actualizar un producto por ID (PUT)
+// Actualizar producto por ID (PUT)
 app.put('/productos/:id', async (req, res) => {
     const { id } = req.params;
     const { nombre, precio, categoria } = req.body;
