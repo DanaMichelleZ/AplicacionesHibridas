@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Nombre: Dana, Apellido: [Zambelli]');
+    res.send('Nombre: Dana, Zambelli');
 });
 
 // info materia
@@ -12,7 +12,7 @@ app.get('/materia', (req, res) => {
 
 // info profe
 app.get('/profesor', (req, res) => {
-    res.send('Profesor: [CAMILA]');
+    res.send('Profesor: CAMILA');
 });
 
 // manejar pag no encontrada
